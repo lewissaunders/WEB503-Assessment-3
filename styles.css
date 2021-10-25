@@ -193,5 +193,8 @@ header a img{
     transition: all 0.3 ease;
     cursor: pointer;
 }
+.recov-message{
+    margin: 40px 0 0 0;
+}
 
     
