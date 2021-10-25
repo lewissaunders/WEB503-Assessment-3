@@ -178,3 +178,6 @@ header a img{
 .register-page .form .register-form p {
     margin: -10px 0 10px 0;
 }
+.login-page .form .button a{
+color: #fff;
+}
