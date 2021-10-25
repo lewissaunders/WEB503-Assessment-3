@@ -86,8 +86,9 @@ nav ul li a:hover::after{
     font-size: 40px;
     font-weight: 500;
 }
-/* Login page css
-*/
+
+/* Login page css */
+
 header .header{
     background-color: #fff;
     height: 45px;
@@ -151,4 +152,25 @@ header a img{
 .form .message a {
     color: #4CAF50;
     text-decoration: none;
+}
+
+/* Registration CSS */
+
+.register-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+    color: #fff;
+}
+.register-page .form .register{
+    margin-top: -31px;
+    margin-bottom: 26px;
+}
+.register-page .form .custom-select{
+    position: center;
+    max-width: 360px;
+    margin: 2px 0 25px 0
+}
+.register-page .form .register-form p{
+    margin: -10px 0 10px 0;
 }
