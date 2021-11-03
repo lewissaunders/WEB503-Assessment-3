@@ -69,11 +69,17 @@ nav ul li a:hover::after{
     margin: -720px auto 20px;
 }
 .text-box h1{
+<<<<<<< HEAD:styles.css
     font-size: 140px;
     line-height: 110px;
     margin-left: -10px;
     color: #fff;
     
+=======
+    font-size: 100px;
+    line-height: 100px;
+    margin-left: -10px;
+>>>>>>> 6868c49a2d223b7778709c1382dc466713f76e14:trial-1/styles.css
 }
 
 .text-box h3{
