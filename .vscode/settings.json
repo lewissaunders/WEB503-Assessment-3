@@ -3,5 +3,6 @@
         "NMIT",
         "Otago",
         "Waikato"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
