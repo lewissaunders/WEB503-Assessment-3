@@ -237,7 +237,7 @@ header a img{
 @media screen and (max-width:360px) {
     .container{
         height: 100vh;
-        width: 360px;
+        width: 100vw;
     }
     nav ul{
         flex: 1;
@@ -263,11 +263,18 @@ header a img{
     }
     .form {
         max-width:300px;
+        flex: center;
     }
     .login-page {
         width: 320px;
         padding: 8% 0 0;
         margin: auto;
         color: #fff;
+    }
+    .register-page .form {
+        margin: 0;
+    }
+    .custom-select{
+        flex: center;
     }
 }
