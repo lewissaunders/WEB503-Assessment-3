@@ -192,6 +192,9 @@ header a img{
 .recov-message{
     margin: 40px 0 0 0;
 }
+
+/* Attempt at making it responsive to both Galaxy and Iphone etc */
+
 @media screen and (max-width:1024px) {
     .container{
         height: 100vh;
