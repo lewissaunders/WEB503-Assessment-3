@@ -4,54 +4,54 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Registration Page</title>
+        <title>Registration Page</title>  <!-- Title of the page-->
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css"> <!-- Linking this page to the styles.css page -->
     </head>
     <body>
         <div class="container">
             <nav>
-                <a href="home.html"><img src="img/logo.png" class="logo"></a>
+                <a href="home.html"><img src="img/logo.png" class="logo"></a> <!-- Making a link so the logo will return the user to the home page -->
                 <ul>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="register.html">Register</a></li>     <!-- Links to the different pages on the Navbar -->
+                    <li><a href="login.html">Login</a></li>           <!-- Links to the different pages on the Navbar -->
+                    <li><a href="catalog.html">Catalog</a></li>       <!-- Links to the different pages on the Navbar -->
                 </ul>
-                <img src="img/cart-icon.png" class="cart-icon">
+                <img src="img/cart-icon.png" class="cart-icon">       <!-- Image for the cart in the top right of the site -->
             </nav>
             <div class="register-page">
                 <div class="form">
                   <div class="register">
                     <div class="register-header">
-                      <h3>REGISTER</h3>
-                      <p>Please enter your details to Register.</p>
+                      <h3>REGISTER</h3> <!-- Appears at the top of the form -->
+                      <p>Please enter your details to Register.</p> <!-- Subtext explaining what the user needs to do -->
                     </div>
                   </div>
                   <form class="register-form">
-                    <input type="email" placeholder="Email Address"/>
-                    <input type="username" placeholder="Username"/>
-                    <input type="first-name" placeholder="First Name"/>
-                    <input type="last-name" placeholder="Last Name"/>
-                    <input type="password" placeholder="Password"/>
-                    <input type="confirm-password" placeholder="Confirm-Password"/>
-                    <div class="custom-select">
+                    <input type="email" placeholder="Email Address"/> <!-- Allows a user input in a box, and has a placeholder for users to identify which details needs to go where-->
+                    <input type="username" placeholder="Username"/>   <!-- Allows a user input in a box, and has a placeholder for users to identify which details needs to go where-->
+                    <input type="first-name" placeholder="First Name"/> <!-- Allows a user input in a box, and has a placeholder for users to identify which details needs to go where-->
+                    <input type="last-name" placeholder="Last Name"/>   <!-- Allows a user input in a box, and has a placeholder for users to identify which details needs to go where-->
+                    <input type="password" placeholder="Password"/>     <!-- Allows a user input in a box, and has a placeholder for users to identify which details needs to go where-->
+                    <input type="confirm-password" placeholder="Confirm-Password"/> <!-- Allows a user input in a box, and has a placeholder for users to identify which details needs to go where-->
+                    <div class="custom-select">   <!-- A customer select dropdown box that will allow the user to select the University that they are studying with -->
                         <select>
-                          <option value="0">----------------Select University:----------------</option>
-                          <option value="1">NMIT</option>
-                          <option value="2">AUT</option>
-                          <option value="3">University of Waikato</option>
-                          <option value="4">Massey University</option>
-                          <option value="5">Victoria University of Wellington</option>
-                          <option value="6">University of Canterbury</option>
-                          <option value="7">Lincoln University</option>
-                          <option value="8">University of Otago</option>
+                          <option value="0">----------------Select University:----------------</option> <!-- Default option of the dropdown custom select-->
+                          <option value="1">NMIT</option> <!--Non-default option of the dropdown custom select-->
+                          <option value="2">AUT</option>  <!--Non-default option of the dropdown custom select-->
+                          <option value="3">University of Waikato</option>  <!--Non-default option of the dropdown custom select-->
+                          <option value="4">Massey University</option>  <!--Non-default option of the dropdown custom select-->
+                          <option value="5">Victoria University of Wellington</option>  <!--Non-default option of the dropdown custom select-->
+                          <option value="6">University of Canterbury</option> <!--Non-default option of the dropdown custom select-->
+                          <option value="7">Lincoln University</option> <!--Non-default option of the dropdown custom select-->
+                          <option value="8">University of Otago</option>  <!--Non-default option of the dropdown custom select-->
                         </select>
                     </div>
-                    <p>Date of birth</p>
-                    <input type="date" data-date-inline-picker="true" />
+                    <p>Date of birth</p> <!-- Date of birth information requirement-->
+                    <input type="date" data-date-inline-picker="true" /> <!-- Creates a calendar for the user to select their date of birth. Can also input data using numbers manually-->
                     <button>register</button>
-                    <p2 class="message">Already registered? <a href="login.html">Sign in Here!</a></p2>
+                    <p2 class="message">Already registered? <a href="login.html">Sign in Here!</a></p2> <!-- Link to prompt users to Sign in if they haven't already-->
                   </form>
                 </div>
             </div>
